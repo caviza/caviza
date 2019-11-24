@@ -7,16 +7,18 @@ import IntlMessages from 'util/IntlMessages';
 
 class DashboardPage extends React.Component {
     render() {
-        const {match} = this.props;
+        const {match, history} = this.props;
 
         return (
             <Grid className="animated slideInUpTiny animation-duration-3" container>
                 <Grid item xs={12}>
-                    <ContainerHeader title={<IntlMessages id="sidebar.dashboard.start"/>} match={match}/>
+                    <ContainerHeader title={<IntlMessages id="sidebar.dashboard.start"/>} match={match}
+                                     history={history}/>
                 </Grid>
 
                 <Grid item xs={12}>
-                    <h1 className="font-weight-light"><IntlMessages id="sidebar.dashboard.last-accessed-consortium"/></h1>
+                    <h1 className="font-weight-light"><IntlMessages id="sidebar.dashboard.last-accessed-consortium"/>
+                    </h1>
                 </Grid>
             </Grid>
         )

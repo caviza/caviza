@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Switch, withRouter} from 'react-router-dom';
+import {Redirect, Route, Switch, withRouter} from 'react-router-dom';
 import {connect} from 'react-redux';
 import Header from 'components/Header/index';
 import Sidebar from 'containers/SideNav/index';
@@ -50,6 +50,7 @@ class App extends React.Component {
                     <main className="app-main-content-wrapper">
                         <div className="app-main-content">
                             <Switch>
+                                <Redirect exact from={`${match.url}/`} to={`${match.url}/dashboard`}/>
                                 <Route path={`${match.url}/dashboard`} component={Dashboard}/>
                                 <Route component={
                                     asyncComponent(() => import('app/routes/extraPages/routes/404'))
