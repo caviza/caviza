@@ -1,6 +1,10 @@
 {
+  "footer.all-rights-reserved": "Todos los derechos reservados",
   "sidebar.main": "Principal",
-  "sidebar.dashboard": "Tablero",
+  "sidebar.dashboard": "Dashboard",
+  "sidebar.dashboard.start": "Inicio",
+  "sidebar.dashboard.last-accessed-consortium": "Consorcios recientemente gestionados",
+  "--------------------------------------------------------------------------------------------------------------": "-",
   "sidebar.dashboard.misc": "Misc",
   "sidebar.dashboard.ecommerce": "eCommerce",
   "sidebar.dashboard.news": "Noticias",

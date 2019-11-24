@@ -1,6 +1,10 @@
 {
+  "footer.all-rights-reserved": "All rights reserved",
   "sidebar.main": "Main",
   "sidebar.dashboard": "Dashboard",
+  "sidebar.dashboard.start": "Start",
+  "sidebar.dashboard.last-accessed-consortium": "Lately managed consortium",
+  "--------------------------------------------------------------------------------------------------------------": "-",
   "sidebar.dashboard.misc": "Misc",
   "sidebar.dashboard.ecommerce": "eCommerce",
   "sidebar.dashboard.news": "News",
